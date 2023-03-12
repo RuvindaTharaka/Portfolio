@@ -14,7 +14,7 @@
         <!-- Header Design -->
         <header class="header">
             <img src="assests/img/logo.png" alt="" class="logo"> 
-            <i class='bx bx-menu' id="menu-icon"></i>
+            <button type="button" id="menu-icon" onclick="dropDown()" class="menu-icon"><i class='bx bx-menu'></i></button>
             <nav class="navbar">
                 <a href="#home" class="active">Home</a>
                 <a href="#about">About</a>
@@ -37,7 +37,7 @@
                     <a href="#"><i class='bx bxl-instagram'></i></i></a></i>
                     <a href="#"><i class='bx bxl-linkedin'></i></a></i>
                 </div>
-                <a href="assests/img/Ruvinda_Tharaka_CV.pdf" class="btn" download="CV"></a> 
+              <a href="assests/img/Ruvinda_Tharaka_CV.pdf" class="btn" download="Ruvinda_Tharaka_CV">Download Now</a> 
             </div>
             <div class="home-image">
                 <img src="assests/img/home.png" alt="home-image">
@@ -46,11 +46,12 @@
 
         <!-- About Design -->
         <section class="about" id="about">
+           
             <div class="about-image">
+                <h2 class="heading">#Ruvi.<span>ME();</span></h2>
                 <img src="assests/img/about-img.png" alt="about-img">
             </div>
             <div class="about-content">
-                <h2 class="heading">#Ruvi.<span>ME();</span></h2>
                 <h3>Full Stack Developer !</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt molestiae pariatur libero voluptatem, est voluptatibus necessitatibus nobis repellat reiciendis numquam placeat dolor veritatis earum labore totam perspiciatis tempore accusantium natus?</p>
                 <a href="" class="btn">Read More</a>
@@ -147,6 +148,7 @@
             <div class="tech-container">
                 <div class="left-container">
                     <div class="sub-container1">
+                        <div></div>
                         <i class='bx bxl-react'></i>
                         <div></div>
                         <i class='bx bxl-spring-boot' ></i>
@@ -154,8 +156,10 @@
                         <i class='bx bxl-android' ></i>
                         <div></div>
                         <i class='bx bxl-html5' ></i>
+                        <div></div>
                     </div>
                    <div class="sub-container1">
+                        <div></div>
                         <div></div>
                         <i class='bx bxl-css3' ></i>
                         <div></div>
@@ -167,6 +171,7 @@
                    <div class="sub-container1">
                         <div></div>
                         <div></div>
+                        <div></div>
                         <i class='bx bx-data' ></i>
                         <div></div>
                         <i class='bx bxl-mongodb' ></i>
@@ -174,6 +179,7 @@
                         <div></div>
                    </div>
                    <div class="sub-container1">
+                        <div></div>
                         <div></div>
                         <div></div>
                         <div></div>
@@ -217,5 +223,6 @@
         </section>
 
         <script src="assests/js/script.js"></script>
+        <script src="https://unpkg.com/scrollreveal"></script>
     </body>
 </html>
